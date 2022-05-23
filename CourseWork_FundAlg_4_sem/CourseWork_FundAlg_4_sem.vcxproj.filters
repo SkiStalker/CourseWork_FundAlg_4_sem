@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Entities">
+      <UniqueIdentifier>{d3537efa-660f-4bdf-b2d3-a7119402f85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Entities">
+      <UniqueIdentifier>{9189d14f-c27a-4d5a-88b2-866c77eaa378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DBStorages">
+      <UniqueIdentifier>{e83605c2-ad25-4dc2-bf9c-204f2874b68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DateBases">
+      <UniqueIdentifier>{0fd25a29-c0f7-49eb-bfc8-8ed231644a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\DateBases">
+      <UniqueIdentifier>{6aa6f92c-c123-47cd-ad03-6fe44d14a3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\DataGenerator">
+      <UniqueIdentifier>{a50fb646-f0db-4b3e-9f4a-9a89d57d6e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DataGenerator">
+      <UniqueIdentifier>{4cc3ee62-c8c2-4038-9607-73d39a3c1565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Exceptions">
+      <UniqueIdentifier>{332c5632-b3e5-49c4-859b-65790888142f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Comparators">
+      <UniqueIdentifier>{1c377bf6-dd8f-4ffc-af87-7dd120dae939}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogisticsСompany.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargo.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Content.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Essence.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="RoutePoint.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DateBase.cpp">
+      <Filter>Исходные файлы\DateBases</Filter>
+    </ClCompile>
+    <ClCompile Include="DateBaseByMap.cpp">
+      <Filter>Исходные файлы\DateBases</Filter>
+    </ClCompile>
+    <ClCompile Include="CargoRoute.cpp">
+      <Filter>Исходные файлы\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DateBaseByAvlTree.cpp">
+      <Filter>Исходные файлы\DateBases</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGenerator.cpp">
+      <Filter>Исходные файлы\DataGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDataGenerator.cpp">
+      <Filter>Исходные файлы\DataGenerator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogisticsСompany.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Essence.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>Файлы заголовков\DBStorages</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Файлы заголовков\DBStorages</Filter>
+    </ClInclude>
+    <ClInclude Include="DateBase.h">
+      <Filter>Файлы заголовков\DateBases</Filter>
+    </ClInclude>
+    <ClInclude Include="DateBaseByAvlTree.h">
+      <Filter>Файлы заголовков\DateBases</Filter>
+    </ClInclude>
+    <ClInclude Include="DateBaseByMap.h">
+      <Filter>Файлы заголовков\DateBases</Filter>
+    </ClInclude>
+    <ClInclude Include="RoutePoint.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CargoRoute.h">
+      <Filter>Файлы заголовков\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDataGenerator.h">
+      <Filter>Файлы заголовков\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator.h">
+      <Filter>Файлы заголовков\DataGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Файлы заголовков\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparator.h">
+      <Filter>Файлы заголовков\Comparators</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultComparator.h">
+      <Filter>Файлы заголовков\Comparators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
